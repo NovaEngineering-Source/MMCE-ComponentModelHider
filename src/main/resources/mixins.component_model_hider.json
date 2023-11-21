@@ -1,0 +1,13 @@
+{
+  "package": "com.cleanroommc.multiblocked.core.mixins",
+  "refmap": "mixins.component_model_hider.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "BlockModelRendererMixin",
+    "ForgeBlockModelRendererMixin",
+    "RenderChunkMixin",
+    "TileEntityRendererDispatcherMixin"
+  ]
+}
